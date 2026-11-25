@@ -1,6 +1,5 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync } from "node:fs";
 
-const ENTRY = "Everything is down, including the dashboard that would tell you what is down. I cannot check the servers because the servers are the thing that is down.";
-
-mkdirSync('/output', { recursive: true });
-writeFileSync('/output/entry.txt', ENTRY);
+// Entry: one line, 135 chars, under the 160-char gate.
+mkdirSync("/output", { recursive: true });
+writeFileSync("/output/entry.txt", "All servers are down. I do not know why yet, the dashboard is also down, and I am refreshing the same error page like it owes me money.");
